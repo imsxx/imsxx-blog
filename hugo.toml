@@ -1,6 +1,7 @@
 baseURL = "https://hugo.imsxx.com/" # 稍后 Cloudflare Pages 会自动设置正确的 URL
 languageCode = "en-us"
 title = "我的在线 Hugo 网站"
+theme = "github.com/theNewDynamic/gohugo-theme-ananke" # 主题模块路径
 
 [params]
   description = "一个完全在线部署的 Hugo 网站"
