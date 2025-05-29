@@ -1,4 +1,4 @@
-baseURL = "https://your-site-name.pages.dev/"
+baseURL = "https://imsxx-blog.pages.dev/"
 languageCode = "en-us"
 title = "我的在线 Hugo 网站"
 theme = "github.com/theNewDynamic/gohugo-theme-ananke" # 移除 @upgrade
