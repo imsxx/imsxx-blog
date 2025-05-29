@@ -11,7 +11,7 @@ title = "我的在线 Hugo 网站"
 # 配置主题。这里我们使用 Go Modules 方式导入主题。
 # "github.com/theNewDynamic/gohugo-theme-ananke" 是 Ananke 主题的 Go Module 路径。
 # 注意：这里不需要指定版本号，Hugo 默认会下载最新兼容版本。
-theme = "github.com/theNewDynamic/gohugo-theme-ananke"  # 与 go.mod 一致
+theme = "github.com/theNewDynamic/gohugo-theme-ananke/v2"  # 与 go.mod 一致
 
 # [params] 段落用于存储主题或其他自定义参数
 [params]
