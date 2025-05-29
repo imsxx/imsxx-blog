@@ -1,0 +1,6 @@
+baseURL = "https://imsxx-blog.pages.dev/" # 稍后 Cloudflare Pages 会自动设置正确的 URL
+languageCode = "en-us"
+title = "我的在线 Hugo 网站"
+
+[params]
+  description = "一个完全在线部署的 Hugo 网站"
