@@ -1,8 +1,6 @@
-baseURL = "https://imsxx-blog.pages.dev/"
-languageCode = "en-us"
-title = "我的在线 Hugo 网站"
-theme = "ananke" # 移除 @upgrade
-
-[params]
-  description = "A simple Hugo site hosted on Cloudflare Pages"
-  favicon = "/images/favicon.ico"
+baseURL = "https://imsxx-blog.pages.dev/"  # 替换为 Cloudflare Pages 域名或自定义域名
+     languageCode = "en-us"
+     title = "My Hugo Site"
+     theme = "github.com/imsxx/imsxx-blog"  # Go 模块主题路径
+     [params]
+       description = "A Hugo site with imsxx-blog theme"
