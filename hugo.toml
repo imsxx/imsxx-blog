@@ -1,7 +1,18 @@
-baseURL = "https://imsxx-blog.pages.dev/" # 稍后 Cloudflare Pages 会自动设置正确的 URL
-languageCode = "en-us"
-title = "我的在线 Hugo 网站"
-theme = "github.com/gohugoio/hugo-theme-ananke"
+# 网站的基础 URL。在 Cloudflare Pages 部署时，它会自动设置为你的 Pages 域名。
+# 暂时可以设置为 pages.dev 的默认域名形式，部署后会自动更正。
+baseURL = "https://your-site-name.pages.dev/" # 替换为你的 Cloudflare Pages 项目名称，例如：https://my-online-hugo-site.pages.dev/
 
+# 网站的语言代码
+languageCode = "zh-cn" # 或者 "zh-cn"
+
+# 网站的标题
+title = "我的在线 Hugo 网站"
+
+# 配置主题。这里我们使用 Go Modules 方式导入主题。
+# "github.com/theNewDynamic/gohugo-theme-ananke" 是 Ananke 主题的 Go Module 路径。
+# 注意：这里不需要指定版本号，Hugo 默认会下载最新兼容版本。
+theme = "github.com/theNewDynamic/gohugo-theme-ananke"
+
+# [params] 段落用于存储主题或其他自定义参数
 [params]
-  description = "一个完全在线部署的 Hugo 网站"
+  description = "一个完全在线部署的 Hugo 网站的描述。"
