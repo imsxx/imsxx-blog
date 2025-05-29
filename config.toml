@@ -1,0 +1,8 @@
+baseURL = "https://imsxx-blog.pages.dev/"
+languageCode = "en-us"
+title = "我的在线 Hugo 网站"
+theme = "ananke" # 移除 @upgrade
+
+[params]
+  description = "A simple Hugo site hosted on Cloudflare Pages"
+  favicon = "/images/favicon.ico"
